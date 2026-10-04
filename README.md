@@ -53,7 +53,7 @@ These tools help frontline technicians perform complex assembly, equipment maint
 
 The open-source ecosystem for AR work instructions provides flexible reference architectures for researchers and custom software developers.
 
-| Stars Badge | Repository | Description & Features | Primary Tech Stack |
+| Stars_Badge | Repository | Description & Features | Primary Tech Stack |
 | :---: | :--- | :--- | :--- |
 | [<img src="https://img.shields.io/github/stars/microsoft/psi?style=social&color=white" alt="Stars"/>](https://github.com/microsoft/psi/stargazers) | **[Microsoft SIGMA (psi)](https://github.com/microsoft/psi)** | Open-source research platform for situated interactive guidance on HoloLens 2 utilizing Detic/SEEM vision models. | C#, .NET, HoloLens 2 |
 | [<img src="https://img.shields.io/github/stars/mafda/augmented_reality_101?style=social&color=white" alt="Stars"/>](https://github.com/mafda/augmented_reality_101/stargazers) | **[Augmented Reality 101](https://github.com/mafda/augmented_reality_101)** | Step-by-step computer vision implementation guide for projecting 3D guidance overlays on physical objects. | Python, OpenCV |
