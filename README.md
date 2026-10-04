@@ -1,211 +1,105 @@
-# Awesome-Augmented-Reality-Work-Instructions
-
-# Awesome-Augmented-Reality-Work-Instructions
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on AR Step-by-Step Guidance, In-Situ Authoring & Procedural Training*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Augmented Reality Work Instructions**. These tools help frontline workers perform complex assembly, maintenance, and inspection tasks with step-by-step AR guidance overlaid directly on physical equipment.
-
-
-
-**Examples** include Microsoft Dynamics 365 Guides, PTC Vuforia Expert Capture, Taqtile Manifest, Atheer, Scope AR WorkLink, TeamViewer Frontline, Proceedix, RE'FLEKT, CareAR, and HoloBuilder (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source ecosystem for AR work instructions is **emerging and research-focused**. **MirageXR** (Community Edition) is the standout—a reference implementation of an XR training system validated in Horizon 2020 projects with over 550 participants across medicine, aviation, and space . **TrainAR** provides a holistic AR authoring tool for non-programmers with visual scripting and didactic frameworks . **Microsoft SIGMA** is an open-source research platform for situated interactive guidance on HoloLens 2 . **Tuto-AR** demonstrates Flutter-based AR tutorials using ARCore and ML Kit. This section documents these focused solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Dynamics 365 Guides](https://learn.microsoft.com/en-us/dynamics365/mixed-reality/guides/)**  
-
-  **Enterprise AR work instruction platform for HoloLens 2.** Provides step-by-step holographic instructions overlaid on real equipment, with in-situ authoring, 3D models, photos, videos, and annotations. **Critical lifecycle notice**: **End of support December 31, 2026** . Subscriptions may be purchased or renewed until **November 1, 2025**. After that date, no security updates, bug fixes, or technical support.
-
-
-
-- **[PTC Vuforia Expert Capture](https://www.ptc.com/en/products/vuforia/expert-capture)**  
-
-  **AR work instruction creation and delivery platform.** Captures expert procedures via RealWear or mobile devices, then delivers AR-guided instructions to frontline workers. **Note**: **Vuforia Vantage on RealWear ends support December 1, 2026** .
-
-
-
-- **[Taqtile Manifest](https://www.taqtile.com/)**  
-
-  **AR/MR work instruction platform for complex operations.** Enables subject matter experts to capture and digitally document procedures non-technically—in nearly the same time it takes to perform the job, they can author a procedure that thousands can follow . Supports **HoloLens 2, Magic Leap, RealWear, iPads, Android, and Chrome**. **Deployment**: Public cloud, private cloud, or **air-gapped on-premises** with no internet connection . Used in manufacturing, defense, transportation, pharmaceutical, and utilities .
-
-
-
-- **[Atheer](https://www.atheerair.com/)**  
-
-  **AR work instruction and remote assistance platform.** Provides AR-powered work instructions created without coding, secure chat for peer/expert collaboration, and multi-party remote video assistance.
-
-
-
-- **[Scope AR WorkLink](https://www.scopear.com/)**  
-
-  **AR work instruction authoring and delivery.** **WorkLink Scenarios** support 3D work instructions with AR mode, active tracking, and overlay modes for equipment in front of the worker or standalone 3D rendering .
-
-
-
-- **[TeamViewer Frontline](https://www.teamviewer.com/en/products/frontline/)**  
-
-  **Enterprise AR platform for frontline workers with vision picking, assembly, and remote assistance.** **Proven at scale**: DHL Supply Chain at 25 sites with 1,500 employees daily (15% productivity increase); Coca-Cola HBC at 35 warehouses in 17 countries (99.99% picking accuracy) . Supports mobile devices and smart glasses.
-
-
-
-- **[Proceedix](https://www.proceedix.com/)**  
-
-  **Connected worker platform with AR work instructions and inspections.** Provides step-by-step digital work instructions, remote assistance, and inspection workflows.
-
-
-
-- **[RE'FLEKT](https://www.reflekt.com/)**  
-
-  **AR work instruction and remote support platform.** Provides AR-guided procedures, remote expert assistance, and content authoring.
-
-
-
-- **[CareAR](https://www.carear.com/)**  
-
-  **AR platform for service and operations with work instructions and remote assistance.** Provides step-by-step AR guidance, measurement tools, and session recording.
-
-
-
-- **[HoloBuilder](https://www.holobuilder.com/)**  
-
-  **360° reality capture and AR work instruction platform.** Provides construction progress documentation and AR-guided field operations.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full XR Training Platforms
-
-
-
-- **[MirageXR (Community Edition)](https://github.com/WEKIT-ECS/MIRAGE-XR)**
-
-  **The most mature open-source XR training system for complex work environments.** **Community Edition** is the B2B open-source reference implementation offered "as is" for the XR developer community . **Key features**: **In-situ authoring and experience capture** — create content directly in XR, reducing production time; **Ghost tracks** — holographic representation of expert performance (body position, gaze, gestures, voice) embedded in the physical workplace; **Experiential learning** — trainees follow a sequence, review their performance, and repeat; **Open standards** — implements **IEEE P1589-2020** for AR learning experience models; **IEEE xAPI** integration for performance analysis . **Validation**: Based on Horizon 2020 project WEKIT results, validated with **over 550 participants** in pilot trials across **medicine, aviation, and space** . **Best for**: Organizations and researchers building custom XR training systems for complex procedural tasks.
-
-
-
-### AR Authoring Tools for Non-Programmers
-
-
-
-- **[TrainAR](https://github.com/jan-behrends/TrainAR-1)**
-
-  **Open-source AR authoring tool for procedural training on handheld Android and iOS devices.** **Unity 2022.1 Editor Extension** . **Key features**: **Visual scripting stateflow** inspired by work-process-analyses — authors import 3D models, convert them to TrainAR objects, and reference them in a stateflow to create procedural flows of instructions, user actions, and feedback; **Onboarding animations**, tracking solutions, assembly placements, layered feedback modalities, and training assessments out of the box; **No AR-specific expertise required** . **Deployment**: Deploy to Android and iOS from Unity Windows/macOS/Linux Editor. **Best for**: Non-programmers and programmers without AR expertise wanting to create interactive procedural AR trainings.
-
-
-
-### Research Platforms
-
-
-
-- **[Microsoft SIGMA](https://github.com/microsoft/SIGMA)**
-
-  **Open-source research platform for situated interactive guidance on HoloLens 2.** **Key features**: **Step-by-step task guidance** with language and vision models; **Dynamic task generation** — tasks can be pre-defined or generated on the fly; **Object detection and highlighting** using vision models like **Detic** and **SEEM**; **Question answering** — answer user queries during task execution . **Architecture**: Client-server — data streams from HoloLens 2 processed on desktop server, bypassing device limitations . Built on **Platform for Situated Intelligence** framework. **Best for**: Researchers wanting to leapfrog basic engineering challenges of full-stack interactive AR applications.
-
-
-
-### Handheld AR Tutorials
-
-
-
-- **[Tuto-AR](https://github.com/erico-ke/TUTO-AR.-HackReality-Hackaton)**
-
-  **Flutter-based AR tutorial application with object recognition.** **Key features**: **ARCore** for mixing physical and digital worlds; **ML Kit** for object recognition in the physical world to identify tutorial-relevant objects; **Real-time step visualization** — users see tutorial steps overlaid on real objects (e.g., changing car oil, installing RAM) . **Tech stack**: Flutter, Dart, ARCore, ML Kit . **Status**: Hackathon project (HackReality 2024) — early-stage but demonstrates the concept. **Best for**: Developers exploring handheld AR tutorials with object recognition.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full XR Training**: **MirageXR** (IEEE P1589-2020, ghost tracks, validated in medicine/aviation/space) .
-
-- **AR Authoring**: **TrainAR** (visual scripting, no AR expertise needed) .
-
-- **Research**: **Microsoft SIGMA** (HoloLens 2, Detic/SEEM vision models) .
-
-- **Handheld AR**: **Tuto-AR** (Flutter, ARCore, ML Kit) .
-
-- **Note**: The open-source ecosystem lacks production-ready alternatives to enterprise platforms like Dynamics 365 Guides, Vuforia Expert Capture, and Taqtile Manifest.
-
-
-
-**Frameworks for building custom systems**: Combine **MirageXR** for a validated XR training foundation with ghost tracks and IEEE standards, **TrainAR** for visual scripting-based AR authoring on handheld devices, **Microsoft SIGMA** for research-grade interactive guidance on HoloLens 2, and **Tuto-AR** for handheld AR tutorials with object recognition. Add **Unity** for AR development and **HoloLens 2** or **Android/iOS** devices for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AR work instruction platforms handle sensitive operational and procedural data; ensure proper access controls and compliance with organizational security policies.
-
-- **Critical lifecycle notice**: **Microsoft Dynamics 365 Guides** reaches **end of support December 31, 2026** . Subscriptions may be purchased or renewed until **November 1, 2025**. Users should migrate to alternatives before that date.
-
-- **Open-source reality**: The open-source ecosystem for AR work instructions is **emerging and research-focused**. **MirageXR** is the standout—a validated XR training system with ghost tracks, IEEE P1589-2020 compliance, and pilot trials across medicine, aviation, and space . **TrainAR** provides a non-programmer-friendly authoring tool with visual scripting . **Microsoft SIGMA** offers a research platform for HoloLens 2 with language and vision models . However, **commercial platforms** (Taqtile Manifest, Vuforia Expert Capture, TeamViewer Frontline, Atheer) provide **enterprise-grade deployment, proven scale at companies like DHL and Coca-Cola, and air-gapped security options** that open-source alternatives require significant development to match. The open-source path is best suited for **research, custom application development, or organizations with strong XR engineering capacity**.
-
-
+# Awesome Augmented Reality Work Instructions 🥽 ⚡
+
+![Awesome AR Work Instructions Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/Category-Augmented--Reality-brightgreen.svg" alt="Category" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & Market Landscape 📊
 
+**Curated List of Enterprise SaaS Platforms & Open-Source GitHub Projects for AR Work Instructions, Spatial Guidance, and Procedural Training.** 🥽🛠️
 
-**Made for industrial engineers, field service technicians, XR developers, and training professionals.**
+> 📈 **Market Size & Structure**: The global Augmented Reality in Manufacturing & Industrial Work Instructions market is estimated at **$2.4 Billion (2026)** and projected to grow at a **CAGR of ~31.5%**. The sector is currently **moderately fragmented**, undergoing consolidation as major enterprise software incumbents (PTC, TeamViewer, Xerox, SymphonyAI) acquire specialized AR startups, while cloud providers like Microsoft offer core platform capabilities.
 
-Let's make AR work instructions more open, accessible, and effective.
+These tools help frontline technicians perform complex assembly, equipment maintenance, inspection, and procedural operations with step-by-step 3D holographic guidance overlaid directly onto physical hardware.
+
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer & Lifecycle Notices](#%EF%B8%8F-disclaimer--lifecycle-notices)
+- [⭐ Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Enterprise Hosted Platforms
+
+| Product Name | Primary Focus / Description | Starting Price Tier | Free Tier / Trial Limit | Corporate Size & Financial Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[PTC Vuforia Expert Capture](https://www.ptc.com/en/products/vuforia/expert-capture)** | Enterprise AR work instruction creation & delivery via smart glasses/mobile. | $90 / user / month (approx. starting suite) | 14-day Enterprise Pilot Request | **Public (PTC Inc.):** ~$15.6B Market Cap (~$2.95B TTM Revenue) |
+| **[TeamViewer Frontline](https://www.teamviewer.com/en/products/frontline/)** | Connected frontline worker platform for vision picking, assembly & maintenance. | $120 / user / month (approx. enterprise tier) | 14-day Free Business Trial | **Public (TeamViewer SE):** ~$1.1B Market Cap (€746.7M Revenue) |
+| **[CareAR](https://www.carear.com/)** | Service experience management & step-by-step visual AR guidance. | $49 / user / month (starting tier) | 14-day Free Trial (up to 5 licenses) | **Parent Subsidiary (Xerox):** ~$7.6B Parent Revenue ($10M ServiceNow backing) |
+| **[Microsoft Dynamics 365 Guides](https://learn.microsoft.com/en-us/dynamics365/mixed-reality/guides/)** | Holographic work instruction platform for HoloLens 2 (End of Support: Dec 31, 2026). | $65 / user / month | 30-day Free Trial (Requires D365 tenant) | **Public (Microsoft):** ~$3.1T Market Cap (Software Unit) |
+| **[Proceedix](https://www.proceedix.com/)** | Centralized mobile & AR work instruction and digital inspection checklist platform. | $25 / user / month (starting standard tier) | 30-day Free Trial | **Acquired (SymphonyAI):** $2.2M Prior Funding (SymphonyAI Portfolio) |
+| **[Scope AR WorkLink](https://www.scopear.com/)** | AR work instruction authoring & real-time 3D interactive scenario guidance. | $75 / user / month (approx. standard seat) | 14-day Free Trial | **Acquired (Flatirons Solutions):** $19.1M Prior Funding |
+| **[HoloBuilder](https://www.holobuilder.com/)** | 360° reality capture & spatial AR operation instructions for construction sites. | $1,200 / project / year (starting tier) | 14-day Free Trial | **Acquired (FARO Technologies):** $34M Acquisition Price ($4M ARR) |
+| **[Atheer](https://www.atheerair.com/)** | AR-powered work instructions, frontline task flow automation, and remote support. | $40 / user / month (starting seat) | 30-day Free Trial | **Private Enterprise:** ~$40.7M Total Funding ($14.6M Est. Revenue) |
+| **[RE'FLEKT](https://www.reflekt.com/)** | AR procedural authoring & remote expert support ecosystem for industrial ops. | Custom Quote / Enterprise Plan | 14-day Guided Pilot | **Acquired (PTC Inc.):** Series A Funded (Acquired by PTC) |
+| **[Taqtile Manifest](https://www.taqtile.com/)** | AR/MR work instruction platform supporting air-gapped on-premises deployments. | $60 / user / month (starting seat) | 14-day Guided Enterprise Trial | **Private Enterprise:** $5M Total Funding (Defense / Aerospace focus) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source ecosystem for AR work instructions provides flexible reference architectures for researchers and custom software developers.
+
+| Stars Badge | Repository | Description & Features | Primary Tech Stack |
+| :---: | :--- | :--- | :--- |
+| [<img src="https://img.shields.io/github/stars/microsoft/psi?style=social&color=white" alt="Stars"/>](https://github.com/microsoft/psi/stargazers) | **[Microsoft SIGMA (psi)](https://github.com/microsoft/psi)** | Open-source research platform for situated interactive guidance on HoloLens 2 utilizing Detic/SEEM vision models. | C#, .NET, HoloLens 2 |
+| [<img src="https://img.shields.io/github/stars/mafda/augmented_reality_101?style=social&color=white" alt="Stars"/>](https://github.com/mafda/augmented_reality_101/stargazers) | **[Augmented Reality 101](https://github.com/mafda/augmented_reality_101)** | Step-by-step computer vision implementation guide for projecting 3D guidance overlays on physical objects. | Python, OpenCV |
+| [<img src="https://img.shields.io/github/stars/WEKIT-ECS/MIRAGE-XR?style=social&color=white" alt="Stars"/>](https://github.com/WEKIT-ECS/MIRAGE-XR/stargazers) | **[MirageXR (Community Edition)](https://github.com/WEKIT-ECS/MIRAGE-XR)** | Mature open-source XR training system with IEEE P1589-2020 ARLEM standard compliance, ghost tracks, and in-situ capture. | C#, Unity, ARLEM |
+| [<img src="https://img.shields.io/github/stars/jblattgerste/TrainAR?style=social&color=white" alt="Stars"/>](https://github.com/jblattgerste/TrainAR/stargazers) | **[TrainAR](https://github.com/jblattgerste/TrainAR)** | Open-source visual scripting framework and authoring extension for non-programmers creating handheld AR procedural training. | Unity, C#, Mobile AR |
+| [<img src="https://img.shields.io/github/stars/daribayev7/oee-smed-analyzer?style=social&color=white" alt="Stars"/>](https://github.com/daribayev7/oee-smed-analyzer/stargazers) | **[OEE SMED AR Analyzer](https://github.com/daribayev7/oee-smed-analyzer)** | Manufacturing changeover optimization platform incorporating step-by-step augmented reality work instruction sequences. | Python, AR Engine |
+| [<img src="https://img.shields.io/github/stars/erico-ke/TUTO-AR.-HackReality-Hackaton?style=social&color=white" alt="Stars"/>](https://github.com/erico-ke/TUTO-AR.-HackReality-Hackaton/stargazers) | **[Tuto-AR](https://github.com/erico-ke/TUTO-AR.-HackReality-Hackaton)** | Flutter-based mobile AR tutorial application featuring real-time object recognition and overlay step guidance. | Flutter, ARCore, ML Kit |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us expand and maintain this list:
+
+1. 🍴 **Fork** the repository.
+2. 📝 Add or update entries in `README.md` maintaining table formats and factual data.
+3. 🚀 Submit a **Pull Request** with a brief summary of additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your research, enterprise evaluation, or AR project development, please consider supporting the project! 🌟
+
+- ⭐ **Star** this repository on GitHub to increase visibility.
+- 🔄 **Share** it with fellow XR developers and industrial engineers.
+- ☕ **Sponsor / Buy me a coffee**: Support ongoing curation work at [GitHub Sponsors (ishandutta2007)](https://github.com/sponsors/ishandutta2007).
+
+Thank you for supporting open community resources! 🙏
+
+---
+
+## ⚠️ Disclaimer & Lifecycle Notices
+
+- ℹ️ **Community Curated**: This repository is a community-driven resource list and does not constitute official commercial endorsement.
+- ⚡ **Microsoft Dynamics 365 Guides End of Support**: Microsoft has announced end of support for Dynamics 365 Guides effective **December 31, 2026**. Subscriptions cannot be purchased or renewed past **November 1, 2025**.
+- 🛠️ **Enterprise vs. Open-Source**: While open-source frameworks like MirageXR and TrainAR provide research-grade customization, commercial platforms (PTC Vuforia, TeamViewer Frontline, Taqtile) offer air-gapped security, enterprise backend integrations, and out-of-the-box hardware integration.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Augmented-Reality-Work-Instructions&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Augmented-Reality-Work-Instructions&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Awesome Augmented Reality Work Instructions</b> • Maintained by <a href="https://github.com/ishandutta2007">ishandutta2007</a> via <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome">Awesome-Awesome-Awesome</a> 🚀
+</p>
